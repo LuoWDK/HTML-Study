@@ -1,8 +1,11 @@
-Study of HTML
- - Cookbook: https://en.wikipedia.org/wiki/HTML_attribute
+# Study of HTML
+> [HTML CookBook](https://en.wikipedia.org/wiki/HTML_attribute)
+--------
+The details of documents are shown as follows:
+ * MyHtml.html
+>  * An introduction of some basic labels
 
-The details of documents are shown as follows.
- - MyHtml.html: introduction of some basic labels
+```
 	<title>
 	<body>
 	<p>
@@ -16,18 +19,25 @@ The details of documents are shown as follows.
 	<img>
 	<a> 
 	<table> <tr> <td>
+```
 
- - MyHtml1.html: introduction of some basic labels
+ * MyHtml1.html
+>  * An introduction of some basic labels
+
+```
 	<form>
 	<input>
 	<select>
 	<textarea>
-	&nbsp;	(blank)
-	&lt;	(<)
-	&gt;	(>)
+	&nbsp;	<--! blank -->
+	&lt;	<--! < -->
+	&gt;	<--! > -->
 	&copy;
 	&reg;
+```
 
- - MyHtml2.html: an implementation of a static html for eBook search page.
+ * MyHtml2.html
+>  * An implementation of a static html for eBook search page.
 
- - MyHtml3.html: an implementation of a static html for dangdang register page.
+ * MyHtml3.html
+>  * An implementation of a static html for dangdang register page.
