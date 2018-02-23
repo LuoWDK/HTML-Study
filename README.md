@@ -40,4 +40,5 @@ The details of documents are shown as follows:
 >  * An implementation of a static html for eBook search page.
 
  * MyHtml3.html
->  * An implementation of a static html for dangdang register page.
+>  * An implementation of a static html for dangdang [register](https://login.dangdang.com/register.php?returnurl=http://www.dangdang.com/) page.
+![image](https://github.com/LuoWDK/HTML-Study/blob/master/WebRoot/images/my.PNG)
