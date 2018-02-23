@@ -2,18 +2,52 @@
 <html>
   <head>
     <title>新用户注册 - 当当网</title>
+	  <style type="text/css">
+		a[class="index"]:link, a[class="index"]:visited{
+			text-decoration:none;  /*超链接无下划线*/
+			color: black;
+		}
+		a[class="index"]:hover{
+			text-decoration:underline;  /*鼠标放上去有下划线*/
+			color: red;
+		}
+		a:link, a:visited{
+			text-decoration: none;
+			color: #1A66B3;
+		}
+		a:hover{
+			text-decoration: underline;
+			color: #1A66B3;
+		}
+		a[class="register"]:link, a[class="register"]:visited{
+			display:inline-block;
+			font-size:20px;
+			border: 0;
+			width:178px;
+			height:44px;
+			line-height:44px;
+			cursor: pointer;
+			text-align:center;
+			background-color:#ff2832;
+			color:#fff;
+			border-radius:22px;
+			margin-left:50px;
+		}
+		a[class="register"]:hover{
+			background-color:#f01923;
+			text-decoration:none;
+		}
+		span[class="tips"]{
+			 background-color: #FEF7F5;
+			 border-color: #FEDBD1;
+			 border-width: 1px;
+			 border-style: solid;
+			 width: 70%;
+		}
+	  </style>
 
   </head>
-  
-  <style type="text/css">
-	a:link,a:visited{
-		text-decoration:none;  /*超链接无下划线*/
-	}
-	a:hover{
-		text-decoration:underline;  /*鼠标放上去有下划线*/
-	}
-  </style>
-  
+    
   <body bgcolor="#F6F9FB">
   
   	<div>
@@ -23,13 +57,13 @@
 	  			<td>
 	  				<table width="60%" align="right">
 	  					<tr>
-	  						<td align="center"><font size="2px"><a href="http://shopping.dangdang.com/shoppingcart/shopping_cart.aspx" target="_blank">购物车</a></font></td>
-	  						<td align="center"><font size="2px"><a href="https://login.dangdang.com/Signin.aspx">我的订单</a></font></td>
-	  						<td align="center"><font size="2px"><a href="http://www.dangdang.com/null.html">我的当当</a></font></td>
-	  						<td align="center"><font size="2px"><a href="http://giftcard.dangdang.com/">礼品卡</a></font></td>
-	  						<td align="center"><font size="2px"><a href="http://t.dangdang.com/20130220_ydmr">手机当当</a></font></td>
-	  						<td align="center"><font size="2px"><a href="http://giftcard.dangdang.com/giftcardCompany">企业销售</a></font></td>
-	  						<td align="center"><font size="2px"><a href="http://support.dangdang.com/helpcenter/">帮助</a></font></td>
+	  						<td align="center"><font size="2px"><a class="index" href="http://shopping.dangdang.com/shoppingcart/shopping_cart.aspx" target="_blank">购物车</a></font></td>
+	  						<td align="center"><font size="2px"><a class="index" href="https://login.dangdang.com/Signin.aspx">我的订单</a></font></td>
+	  						<td align="center"><font size="2px"><a class="index" href="http://www.dangdang.com/null.html">我的当当</a></font></td>
+	  						<td align="center"><font size="2px"><a class="index" href="http://giftcard.dangdang.com/">礼品卡</a></font></td>
+	  						<td align="center"><font size="2px"><a class="index" href="http://t.dangdang.com/20130220_ydmr">手机当当</a></font></td>
+	  						<td align="center"><font size="2px"><a class="index" href="http://giftcard.dangdang.com/giftcardCompany">企业销售</a></font></td>
+	  						<td align="center"><font size="2px"><a class="index" href="http://support.dangdang.com/helpcenter/">帮助</a></font></td>
 	  					</tr>
 	  					<tr>
 	  						<td align="right" colspan="7">
@@ -61,8 +95,8 @@
   			<tr>
   				<td width="10%"></td>
   				<td>新用户注册</td>
-  				<td align="right" width="8%"><font size="2px"><a href="http://www.dangdang.com/">当当首页</a></font></td>
-  				<td align="right" width="8%"><font size="2px"><a href="http://help.dangdang.com/details/page2">注册帮助</a></font></td>
+  				<td align="right" width="5%"><font size="2px"><a class="index" href="http://www.dangdang.com/">当当首页</a></font></td>
+  				<td align="right" width="5%"><font size="2px"><a class="index" href="http://help.dangdang.com/details/page2">注册帮助</a></font></td>
   			</tr>
   			<tr>
   				<td colspan="4" bgcolor="#ECEEF2" width="100%" align="center"></td>
@@ -72,7 +106,7 @@
 			</tr>
   			<tr>
   				<td colspan="4" align="center">
-  					<span bgcolor="#ECEEF2" width="70%">
+  					<span class="tips" width="70%">
   						<font size="2px">
   							贴心提示：请勿设置与邮箱密码相同的账户登录密码或支付密码，防止不法分子窃取您的当当账户信息，<a href="http://blog.dangdang.com/?p=22276">谨防诈骗</a>！
   						</font>
@@ -152,8 +186,8 @@
 			</tr>
   			<tr>
   				<td colspan="4" align="center">
-				  	<img src="images/signupbutton.gif">
-				</td>
+  					<a class="register" href="#">立即注册</a>
+  				</td>
 			</tr>
   			<tr>
   				<td colspan="4"><p align="center"></p></td>

@@ -1,0 +1,67 @@
+@CHARSET "UTF-8";
+
+html{
+	font-size: 12px;
+	color: #404040;
+	font-family: 'Microsoft YaHei';
+	background-color:#f6f9fb;
+}
+img{
+	border: 0;
+}
+* ul, * ol, * li{
+	list-style: none;
+}
+
+body, button, ul, li, ol, p, dl, dd, h1, h2, h3, h4, h5, h6, img, iframe, form, input{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	border: 0;
+}
+
+.ddnewhead_wrap{
+	color: #404040;
+	font: 12px/18px "\5b8b\4f53",Arial,Helvetica,sans-serif;
+}
+.ddnewhead_wrap a{
+	color: #1a66b3;
+	text-decoration: none;
+}
+.ddnewhead_wrap a:hover{
+	text-decoration: underline;
+	color: #1a66b3;
+}
+.ddnewhead_wrap img{
+	display: inline;
+}
+.ddnewhead_wrap li{
+	clear: none;
+}
+.ddnewhead_wrap h1, .ddnewhead_wrap h2, .ddnewhead_wrap h3, .ddnewhead_wrap h4, .ddnewhead_wrap h5, .ddnewhead_wrap h6{
+	font-size: 12px;
+	font-weight: normal;
+}
+.ddnewhead_operate a, .ddnewhead_operate li a{
+	color: #404040;
+	text-decoration: none;
+}
+.ddnewhead_operate a:hover, .ddnewhead_operate li a:hover{
+	color: #f60;
+	text-decoration: underline;
+}
+.ddnewhead_content{ width:960px;margin:0 auto;padding-top:2px;height:71px;color:#404040;background:#fff url(/images/unite_header_bg_1101.gif) repeat-x 0 -148px;}
+
+.ddnewhead_content .ddnewhead_logo{
+	float: left;
+	display: inline;
+	width: 172px;
+	height: 71px;
+	overflow: hidden;
+}
+.ddnewhead_content .ddnewhead_logo a{
+	display: block;
+	width: 172px;
+	height: 71px;
+	overflow: hidden;
+}
